@@ -1,0 +1,67 @@
+div button {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 20%;
+    border: 5px solid gainsboro;
+    padding: 5px;
+}
+
+.topRow {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap:  5px;
+}
+
+.displayBox {
+    display: flex;
+    flex : 1;
+    border: 3px solid black;
+    justify-content: flex-end;
+    font-family: 'Calculator', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 90%;
+    padding-right: 10px;
+}
+
+.btnBox {
+    display: flex;
+}
+
+.btn {
+    height: 80px;
+    margin-top : 3px;
+    margin-bottom: 3px;
+}
+
+.btneq {
+    display: flex; 
+    flex: 1;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.numberBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 5px;
+}
+
+.functionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
